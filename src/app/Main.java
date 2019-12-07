@@ -20,18 +20,21 @@ public class Main {
     private static SubAppInterface subApp;
     private static Scanner scanChoice;
     private static int choiceInput = -1;
+    private static UDPClient udpClient;
 
 
     public static void main(String[] args) throws IOException, InterruptedException {
         scanChoice = new Scanner(System.in);
 
-        UDPClient udpClient = new UDPClient();
+        udpClient = new UDPClient();
         Runnable r1 = new Runnable() {
             @Override
             public void run() {
                 try {
                     buildMenu();
                 } catch (InterruptedException e) {
+                    e.printStackTrace();
+                } catch (IOException e) {
                     e.printStackTrace();
                 }
             }
@@ -43,7 +46,7 @@ public class Main {
         executorService.submit(t1);
     }
 
-    public static void buildMenu() throws InterruptedException {
+    public static void buildMenu() throws InterruptedException, IOException {
 
         System.out.println("Welcome to Villain Generator 2.0\n");
         System.out.println("Please select the app functionality you want to try:");
@@ -58,23 +61,28 @@ public class Main {
         subAppLauncher();
     }
 
-    private static void subAppLauncher() throws InterruptedException {
+    private static void subAppLauncher() throws InterruptedException, IOException {
         switch(choiceInput){
             case 0:
                 System.out.println("Bye!");
                 scanChoice.close();
+                udpClient.sendEcho("e");
+                System.exit(0);
                 break;
             case 1:
                 subApp = new ThreadApp();
                 subApp.runSubApp();
+                udpClient.sendEcho("e");
                 break;
             case 2:
                 subApp = new ThreadExtAndImpApp();
                 subApp.runSubApp();
+                udpClient.sendEcho("e");
                 break;
             case 3:
                 subApp = new ThreadPoolsApp();
                 subApp.runSubApp();
+                udpClient.sendEcho("e");
                 break;
         }
     }

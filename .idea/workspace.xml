@@ -2,33 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="827bf71d-a439-457a-add1-26ecf3937811" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/app/MainClientRMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/communication/GetHeroI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/communication/TCPClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/communication/UDPClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/app/ClientApp$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/app/ClientApp$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/app/ClientApp.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/customThreads/ExtendsThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/customThreads/ExtendsThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/customThreads/ImplementsRunnableThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/customThreads/ImplementsRunnableThread.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/model/BadFlyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/model/BadFlyPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/model/BadStrongMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/model/BadStrongMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/model/GoodFlyPerson.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/model/GoodFlyPerson.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/model/GoodStrongMan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/model/GoodStrongMan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/storage/FileStorageController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/storage/FileStorageController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/subApplications/ThreadApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/subApplications/ThreadApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/subApplications/ThreadExtAndImpApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/subApplications/ThreadExtAndImpApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/ClientVillains/subApplications/ThreadPoolsApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ClientVillains/subApplications/ThreadPoolsApp.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/ClientApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/communication/StatusMessage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/communication/StatusMessageType.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customThreads/ExtendsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customThreads/ExtendsThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/customThreads/ImplementsRunnableThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/customThreads/ImplementsRunnableThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subApplications/ThreadApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subApplications/ThreadApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subApplications/ThreadExtAndImpApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subApplications/ThreadExtAndImpApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/subApplications/ThreadPoolsApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/subApplications/ThreadPoolsApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,11 +25,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/app/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="514">
-              <caret line="111" column="5" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="111" selection-end-column="5" />
+            <state relative-caret-position="334">
+              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,11 +62,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/app/MainClientRMI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+            <state relative-caret-position="324">
+              <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -204,18 +178,18 @@
         <option value="$PROJECT_DIR$/src/app/App.java" />
         <option value="$PROJECT_DIR$/src/storage/FileStorageController.java" />
         <option value="$PROJECT_DIR$/src/communication/UDPClient.java" />
-        <option value="$PROJECT_DIR$/src/app/Main.java" />
         <option value="$PROJECT_DIR$/src/customThreads/ExtendsThread.java" />
         <option value="$PROJECT_DIR$/src/communication/GetHeroI.java" />
         <option value="$PROJECT_DIR$/src/communication/GetHeroC.java" />
         <option value="$PROJECT_DIR$/src/app/MainClientRMI.java" />
+        <option value="$PROJECT_DIR$/src/app/Main.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1980" />
     <option name="y" value="18" />
-    <option name="width" value="1833" />
+    <option name="width" value="1252" />
     <option name="height" value="1031" />
   </component>
   <component name="ProjectView">
@@ -335,10 +309,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1980" y="18" width="1833" height="1031" extended-state="0" />
+    <frame x="1980" y="18" width="1252" height="1031" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22734946" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33779263" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -348,7 +322,7 @@
       <window_info anchor="bottom" id="Messages" order="0" weight="0.329849" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" visible="true" weight="0.26945412" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.26945412" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -590,16 +564,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/app/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="111" column="5" lean-forward="true" selection-start-line="89" selection-start-column="2" selection-end-line="111" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/model/PersonGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -640,8 +604,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/app/MainClientRMI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        <state relative-caret-position="324">
+          <caret line="18" column="29" selection-start-line="18" selection-start-column="29" selection-end-line="18" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
