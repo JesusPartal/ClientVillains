@@ -1,6 +1,6 @@
 package subApplications;
 
-import app.ClientApp;
+import app.Main;
 import customThreads.ExtendsThread;
 import java.util.Scanner;
 
@@ -12,8 +12,8 @@ public class ThreadApp implements SubAppInterface {
         scanner = new Scanner(System.in);
         System.out.println("Launching Sub-application 1");
         System.out.println("---------------------------");
-        choiceThreads = ClientApp.integerValidatorWithMessage(scanner, 1, 20, "How many Threads? (1-20) ");
-        choiceSpawns = ClientApp.integerValidatorWithMessage(scanner, 1, 100, "How many spawns per Thread? (1-100) ");
+        choiceThreads = Main.integerValidatorWithMessage(scanner, 1, 20, "How many Threads? (1-20) ");
+        choiceSpawns = Main.integerValidatorWithMessage(scanner, 1, 100, "How many spawns per Thread? (1-100) ");
         scanner.close();
     }
 
@@ -24,7 +24,7 @@ public class ThreadApp implements SubAppInterface {
             ExtendsThread thread = new ExtendsThread(choiceSpawns);
             thread.join();
             thread.start();
-            thread.sleep(ClientApp.cadency);
+            thread.sleep(Main.cadency);
         }
     }
 }

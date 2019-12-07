@@ -1,6 +1,6 @@
 package subApplications;
 
-import app.ClientApp;
+import app.Main;
 import customThreads.ExtendsThread;
 import java.util.Scanner;
 import java.util.concurrent.ExecutorService;
@@ -15,10 +15,10 @@ public class ThreadPoolsApp implements SubAppInterface {
         scanner = new Scanner(System.in);
         System.out.println("Launching Sub Application 3");
         System.out.println("---------------------------");
-        choicePool = ClientApp.integerValidatorWithMessage(scanner, 1, 2, "Do you want to use Fixed Thead Pool (1) or Cached Thread Pool(2) ");
+        choicePool = Main.integerValidatorWithMessage(scanner, 1, 2, "Do you want to use Fixed Thead Pool (1) or Cached Thread Pool(2) ");
         if (choicePool == 1)
-            choiceThreads = ClientApp.integerValidatorWithMessage(scanner, 1, 100, "How many Threads? (1-100) ");
-        choiceSpawns = ClientApp.integerValidatorWithMessage(scanner, 1, 100, "How many spawns per Thread? (1-100) ");
+            choiceThreads = Main.integerValidatorWithMessage(scanner, 1, 100, "How many Threads? (1-100) ");
+        choiceSpawns = Main.integerValidatorWithMessage(scanner, 1, 100, "How many spawns per Thread? (1-100) ");
     }
 
     @Override
@@ -34,12 +34,12 @@ public class ThreadPoolsApp implements SubAppInterface {
     }
 
     private void useFixedPool() throws InterruptedException {
-        int choiceThreadSizePool = ClientApp.integerValidatorWithMessage(scanner, 1, 10, "What's the pool size? (1-10) ");
+        int choiceThreadSizePool = Main.integerValidatorWithMessage(scanner, 1, 10, "What's the pool size? (1-10) ");
         executor = Executors.newFixedThreadPool(choiceThreadSizePool);
         for (int i = 0; i < choiceThreads; i++) {
             ExtendsThread thread0 = new ExtendsThread(choiceSpawns);
             executor.execute(thread0);
-            Thread.sleep(ClientApp.cadency);
+            Thread.sleep(Main.cadency);
         }
         executor.shutdown();
     }
@@ -49,7 +49,7 @@ public class ThreadPoolsApp implements SubAppInterface {
         for (int i = 0; i < choiceThreads; i++) {
             ExtendsThread thread0 = new ExtendsThread(choiceSpawns);
             executor.execute(thread0);
-            Thread.sleep(ClientApp.cadency);
+            Thread.sleep(Main.cadency);
         }
         executor.shutdown();
     }

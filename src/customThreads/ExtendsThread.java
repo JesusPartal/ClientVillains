@@ -1,6 +1,6 @@
 package customThreads;
 
-import app.ClientApp;
+import app.Main;
 import model.PersonGenerator;
 import model.Person;
 import model.SuperHero;
@@ -52,7 +52,7 @@ public class ExtendsThread extends Thread{
                 }
             }
             try {
-                Thread.sleep(ClientApp.cadency);
+                Thread.sleep(Main.cadency);
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
